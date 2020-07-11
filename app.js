@@ -12,7 +12,6 @@ function init() {
     //camera.rotation.y = 20/180*Math.PI;
     
     camera.position.z = 3;
-    console.log( camera.rotation);
 
     let hlight = new THREE.AmbientLight(0x404040,100);
     scene.add(hlight);
